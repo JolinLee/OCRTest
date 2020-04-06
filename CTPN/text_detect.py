@@ -5,23 +5,23 @@ def detect_img(img, fileName):
     sick_name = None
     doctor_advice = None
 
-    if fileName == 'image01':
+    if fileName == 'image01.jpg':
         sick_name = img[240:400, 40:580]
         doctor_advice = img[400:650, 40:580]
 
-    if fileName == 'image02':
+    if fileName == 'image02.jpg':
         sick_name = img[210:350, 40:560]
         doctor_advice = img[370:450, 40:580]
 
-    if fileName == 'image03':
+    if fileName == 'image03.jpg':
         sick_name = img[100:300, 40:780]
         doctor_advice = img[340:550, 40:800]
 
-    if fileName == 'image04':
+    if fileName == 'image04.jpg':
         sick_name = img[250:300, 60:550]
         doctor_advice = img[300:400, 60:550]
 
-    if fileName == 'image05':
+    if fileName == 'image05.jpg':
         sick_name = img[480:600, 200:9000]
         doctor_advice = img[600:1000, 200:9000]
 
